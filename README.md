@@ -3,8 +3,11 @@ Gin Web Framework example with Redis DB and unit tests
 
 # run/compile
 go mod tidy
+
 go mod vendor
+
 go run main.go
+
 go build -o bin/webserver main.go
 
 # run redis DB
